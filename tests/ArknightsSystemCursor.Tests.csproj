@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>ArknightsSystemCursor.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../src/Core/*.cs" Link="Core/%(Filename)%(Extension)" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+</Project>

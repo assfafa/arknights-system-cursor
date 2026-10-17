@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>ArknightsSystemCursor</AssemblyName>
+    <Product>明日方舟 · 系统指针</Product>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Core/*.cs" Link="Core/%(Filename)%(Extension)" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+</Project>

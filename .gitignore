@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+artifacts/
+work/
+.vs/
+*.user
+*.disabled-by-codex
+*.system-cursor-disabled-*
+resource-backup/
+state/
